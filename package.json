@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/QuangThienSix/nodemodule#readme",
   "dependencies": {
-    "xlsx": "^0.16.9"
+    "ang-jsoneditor": "^1.10.5"
   }
 }
