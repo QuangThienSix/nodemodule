@@ -1,0 +1,20 @@
+{
+  "mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "password": "root",
+    "database": "online_auction",
+    "connectionLimit": 50
+  },
+  "pagination": {
+    "limit": 6
+  },
+  "authentication": {
+    "saltRounds": 8
+  },
+  "Mail": {
+    "Gmail_USER": "phamquangthien.it@gmail.com",
+    "Gmail_PASS": "stqpqeyjhmdqolps"
+  }
+}

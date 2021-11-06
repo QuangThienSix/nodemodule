@@ -1,0 +1,1 @@
+export const RoleAdmin = 1;

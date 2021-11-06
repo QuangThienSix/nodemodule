@@ -1,0 +1,49 @@
+header {
+  background-color: #0d6efdba;
+}
+header .row-header {
+  justify-content: center;
+  align-items: center;
+}
+header .row-header .logo {
+  color: #fff;
+}
+header .row-header .logo .box {
+  background: rgb(231, 93, 93);
+  border-radius: 15% 25%;
+}
+/* menu */
+header .row-header .menu .p-menubar {
+  background: inherit;
+  border: none;
+  color: #fff;
+}
+header .row-header .menu .p-menubar ul li a span {
+  color: #fff !important;
+}
+header .row-header .menu .p-menubar ul li a span::before {
+  color: #fff;
+}
+header .row-header .menu .p-menubar ul li .p-submenu-list {
+  background-color: #0d6efdba;
+}
+.p-menubar .p-menubar-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link,
+.p-menubar
+  .p-menubar-root-list
+  > .p-menuitem.p-menuitem-active
+  > .p-menuitem-link:not(.p-disabled):hover {
+  background-color: #000 !important;
+}
+.p-menubar .p-menuitem.p-menuitem-active > .p-menuitem-link,
+.p-menubar .p-menuitem-link:not(.p-disabled):hover {
+  background-color: #000 !important;
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link {
+  padding: 0.75 rem 1.5 rem;
+}
+/* User */
+header .row-header .users button {
+  background: rgb(231, 93, 93);;
+  border-radius: 25% 15%;
+  color: #fff
+}

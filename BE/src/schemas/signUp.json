@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "properties": {
+    "username": { "type": "string" },
+    "password": { "type": "string" },
+    "fullname": { "type": "string" },
+    "address": { "type": "string" },
+    "email": { "type": "string" },
+    "accessToken": { "type": "string" },
+    "refreshToken": { "type": "string" },
+    "rfToken": { "type": "string" },
+    "islock": { "type": "boolean" },
+    "tokenMail": { "type": "string" },
+    "ratting": { "type": "number" },
+    "roles_id": { "type": "string" }
+  },
+  "required": [
+    "username",
+    "password",
+    "fullname",
+    "email",
+    "address",
+    "islock",
+    "roles_id"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,18 @@
+{
+    "url": "http://localhost:8080",
+    "mongoUrl": "mongodb://localhost/restdb",
+    "mysql": {
+        "host": "us-cdbr-east-04.cleardb.com",
+        "port": 3306,
+        "user": "bd4aa8025151a7",
+        "password": "fd54752c",
+        "database": "heroku_8cc5fc7a644e98d",
+        "connectionLimit": 50
+    },
+    "pagination": {
+        "limit": 6
+    },
+    "authentication": {
+        "saltRounds": 8
+    }
+}

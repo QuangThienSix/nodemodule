@@ -1,0 +1,15 @@
+{
+  "required": [
+    "email",
+    "tokenMail"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "email": {
+      "type": "string"
+    },
+    "tokenMail": {
+      "type": "string"
+    }
+  }
+}
